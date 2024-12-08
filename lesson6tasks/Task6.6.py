@@ -1,3 +1,7 @@
+'''
+См. предыдущую задачу, но вместо шифра Цезаря
+использовать шифр Виженера.
+'''
 def vigenere_encrypt(plaintext, key):
     encrypted_text = []
     key = key.lower()
